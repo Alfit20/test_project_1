@@ -66,7 +66,6 @@ public class LogStorageService {
 
 
 
-    @SuppressWarnings("ResultOfMethodCallIgnored")
     private void validateDirectory() {
         File storageDir = new File(logStorageDir);
         if (!storageDir.exists()) {
