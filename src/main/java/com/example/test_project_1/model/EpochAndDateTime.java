@@ -1,5 +1,6 @@
 package com.example.test_project_1.model;
 
+import com.example.test_project_1.config.ZonedDateTimeAdaptor;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
